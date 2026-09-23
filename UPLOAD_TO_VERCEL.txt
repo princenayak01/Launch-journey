@@ -1,0 +1,16 @@
+VERCEL DEPLOYMENT
+==================
+This ZIP is configured to build with:
+    npm run build
+which runs:
+    vite build
+
+IMPORTANT:
+If Vercel logs show:
+    Cloning github.com/princenayak01/Launch-journey
+    Commit: 27b6906
+    tsc -b && vite build
+then Vercel is deploying the GitHub project, NOT this ZIP.
+
+For ZIP deployment, create a NEW Vercel project and upload this ZIP.
+Do not connect it to the old GitHub deployment.
